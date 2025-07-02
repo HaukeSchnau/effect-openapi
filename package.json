@@ -1,0 +1,23 @@
+{
+  "name": "effect-openapi",
+  "module": "index.ts",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.87.2",
+    "effect": "^3.16.11",
+    "openapi-typescript-helpers": "^0.0.15"
+  }
+}
